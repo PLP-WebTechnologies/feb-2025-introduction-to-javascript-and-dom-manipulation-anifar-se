@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Welcome to My JavaScript Demo</h1>
+    </header>
+    
+    <section>
+        <p id="description">Click the button to change this text.</p>
+        <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+        <button onclick="toggleBox()">Add/Remove Box</button>
+        <div id="box" class="hidden">This is a box.</div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
